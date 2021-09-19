@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <!-- Script loading -->
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="style.css" />
+
+    <title>File Management</title>
+  </head>
+  <body>
+    <h1 class="app-title">File Handling With Electron</h1>
+    <div class="split-line"></div>
+    <div class="row">
+      <div class="col file-list"></div>
+      <div class="col file-manipulator">
+        <div class="edit-row">
+          <p class="file-name"></p>
+          <div class="edit-btns">
+            <button
+              onclick="updateFile()"
+              class="update-btn"
+              value="Edit"
+            >
+              Edit
+            </button>
+            <button
+              class="create-btn"
+              onClick="createFileHandler()"
+            >
+              Create
+            </button>
+          </div>
+        </div>
+        <div class="file-board"></div>
+      </div>
+    </div>
+  </body>
+</html>

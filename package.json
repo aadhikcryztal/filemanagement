@@ -1,0 +1,18 @@
+{
+  "name": "file_management-electron",
+  "version": "1.0.0",
+  "description": "file management with electron",
+  "main": "electron/main.js",
+  "scripts": {
+    "electron": "electron ."
+  },
+  "author": "aadhik",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^14.0.1",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {
+    "electron-reloader": "^1.2.1"
+  }
+}
